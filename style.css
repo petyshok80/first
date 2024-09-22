@@ -1,0 +1,167 @@
+.wrapper {
+    width: 800px;
+    border: 1px */solid black;
+    margin: 0 auto ;
+}
+
+.photo {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;   
+}
+
+.left{
+    display: flex;
+    gap: 30px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.table {
+    display: flex;
+    border: 1px solid #B2A4D5;
+    border-radius: 10px;
+}
+.table-left,
+.table-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-left {
+    border-right: 1px solid #B2A4D5;
+}
+
+.table-right {
+    border-right: 1px solid #B2A4D5;
+}
+
+.table-header {
+    border-bottom: 1px solidc #B2A4D5;
+    text-align: center;
+    color: #B2A4D5;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.table-link {
+    color: black;
+    text-decoration: none;
+}
+
+.table-link:hover{
+    color: #B2A4D5;
+}
+
+.table-list {
+    width: fit-content;
+    margin: 0;
+}
+
+.table-content {
+    flex-grow: 1;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    background: #B2A4D5;
+    border-radius: 10px;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+
+.tech {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wl {
+    width: 50px;
+    height: 50px;
+}
+
+.tech-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: box-shadow 0.5s ease;
+}
+
+.tech-card:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 20px 0 #574596;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.form-input,
+.form-textarea {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-textarea {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.form-button {
+    background: #B2A4D5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+}
